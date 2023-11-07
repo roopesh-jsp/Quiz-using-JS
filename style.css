@@ -6,17 +6,23 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(to right bottom, teal, purple);
+  /* background: linear-gradient(to right bottom, teal, purple); */
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+
   backdrop-filter: blur(70px);
 }
 .card {
   width: 650px;
   /* background-color: black; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right bottom,
     rgb(49, 136, 136),
     rgb(151, 63, 151)
-  );
+  ); */
+  background: transparent;
+  border: 2px solid rgb(101, 66, 0);
+
   color: aliceblue;
   margin: 100px auto;
   padding: 20px;
@@ -51,8 +57,8 @@ body {
   display: none;
 }
 .correct {
-  background-color: rgb(67, 188, 67);
+  background-color: rgb(137, 203, 137);
 }
 .wrong {
-  background-color: rgb(200, 76, 76);
+  background-color: rgb(169, 117, 117);
 }
